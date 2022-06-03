@@ -1,0 +1,6 @@
+img{
+
+    border-radius: var(--roundness);
+    object-fit: cover;
+    object-position: center;
+}

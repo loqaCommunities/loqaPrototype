@@ -1,0 +1,10 @@
+@import './channel.css';
+
+.leftBar{
+
+    width: 100% !important;
+    height: 100%;
+    max-width: 250px;
+    min-width: 150px;
+    background-color: var(--channels-area-bg-color);
+}

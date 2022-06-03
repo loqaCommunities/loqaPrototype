@@ -1,0 +1,8 @@
+@import './buttons.css';
+@import './text.css';
+
+.sideBar{
+
+    width: 120px;
+    height: 100vh;
+}

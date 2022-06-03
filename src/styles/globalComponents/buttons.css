@@ -1,0 +1,21 @@
+button{
+
+    border-radius: var(--roundness);
+    transition: 0.25s;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: center;
+    box-shadow: 0 0px 0px var(--shadow-color);
+    border-style: none;
+    color: var(--text-color);
+}
+button:hover{
+
+    box-shadow: 0 5px 25px var(--shadow-color);
+}
+button:active{
+    
+    transition: 0.1s;
+    box-shadow: 0 0px 0px var(--shadow-color);
+}

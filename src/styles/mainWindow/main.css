@@ -1,0 +1,7 @@
+@import './textChannel/main.css';
+
+.textChannel{
+
+    width: 100% !important;
+    overflow: hidden;
+}

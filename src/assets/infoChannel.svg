@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42pt" height="42pt" viewBox="0 0 42 42" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,99.607843%);stroke-opacity:1;stroke-miterlimit:4;" d="M 21 24.000976 L 21 12.999999 " transform="matrix(-1.333333,0,0,-1.333333,48.999999,48.333332)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 21 13.667969 C 20.261719 13.667969 19.667969 13.070312 19.667969 12.332031 C 19.667969 11.597656 20.261719 11 21 11 C 21.738281 11 22.332031 11.597656 22.332031 12.332031 C 22.332031 13.070312 21.738281 13.667969 21 13.667969 Z M 21 13.667969 "/>
+</g>
+</svg>

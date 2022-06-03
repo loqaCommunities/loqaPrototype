@@ -1,0 +1,22 @@
+.iconButton{
+    
+    background-color: none;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: var(--roundness);
+    cursor: pointer;
+    transition: 0.25s;
+    vertical-align: center;
+    box-shadow: 0 0px 0px var(--shadow-color);
+    height: 100%;
+    width: 100%;
+}
+.iconButton:hover{
+
+    box-shadow: 0 5px 25px var(--shadow-color);
+}
+.iconButton:active{
+    
+    transition: 0.1s;
+    box-shadow: 0 0px 0px var(--shadow-color);
+}

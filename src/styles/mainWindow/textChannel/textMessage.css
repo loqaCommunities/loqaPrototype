@@ -1,0 +1,120 @@
+.textMessage{
+
+    display: flex;
+    width: calc(100% - 50px);
+    height: 100%;
+    flex-direction: column;
+}
+.textMessageTop{
+
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.textMessageBody{
+
+    width: 100%;
+    user-select: text;
+    padding: 5px 10px 5px 10px;
+}
+.posterPFP{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.posterPFP:hover{
+
+    cursor: pointer;
+    box-shadow: 0 2.5px 15px var(--shadow-color);
+}
+.posterPFP:active{
+
+    transition: 0.1s;
+    cursor: default;
+    box-shadow: 0 0 0 var(--shadow-color);
+}
+.textMessageBottom{
+
+    height: 40px;
+    display: flex;
+    overflow: auto;
+    padding: 0 5px 0 5px;
+}
+.posterName{
+
+    align-items: center;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+.spaceWaster{
+
+    flex: 1;
+}
+.topRole{
+
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    align-items: center;
+    grid-column-gap: 5px;
+    height: 35px;
+    background-color: var(--top-role-background-color);
+    padding: 0px 10px 0px 10px;
+    border-radius: var(--roundness);
+}
+.topRoleColor{
+
+    height: 10px;
+    font-size: 0;
+    border-radius: 50%;
+    color: var(--top-role-text-color)
+}
+.topRoleName{
+
+    color: var(--top-role-text-color);
+    display: flex;
+    align-items: center;
+}
+.reactionIcon{
+
+    border-radius: 0;
+    height: 100%;
+    margin-right: 5px;
+}
+.reaction{
+
+    display: flex;
+    height: 25px;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--reaction-bg-color);
+    border-radius: var(--roundness);
+    margin-right: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 0 var(--shadow-color);
+}
+.reaction:hover{
+    
+    box-shadow: 0 2.5px 15px var(--shadow-color);
+    cursor: pointer;
+}
+.reaction:active{
+    
+    transition: 0.1s;
+    box-shadow: 0 0 0 var(--shadow-color);
+    cursor: default;
+}
+.reactionAmount{
+
+    margin-right: 10px;
+}
+.reactionsWrapper{
+
+    display: flex;
+    overflow: scroll;
+    max-width: 50%;
+    height: 100px;
+}

@@ -1,0 +1,17 @@
+@import './images.css';
+@import './scrollableArea.css';
+@import './buttons.css';
+@import './iconButton.css';
+
+.emptyBox{
+
+    height: 70px;
+    opacity: 0;
+    overflow: visible;
+}
+.emptyBoxChannels{
+
+    height: 75px;
+    opacity: 0;
+    overflow: visible;
+}

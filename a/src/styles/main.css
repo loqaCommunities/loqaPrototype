@@ -1,0 +1,98 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&display=swap');
+@import './header.css';
+@import './layout.css';
+@import './topBar.css';
+
+/* various stuff */
+:root{
+
+    --bg-color: rgb(53, 53, 53);
+    --side-panel-bg-color: rgba(53, 53, 53, 0.7);
+    --text-color: white;
+    --roundness: 10px;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --channel-image-bg-color: rgb(70, 70, 70);
+    --accent-color: rgb(0, 153, 255);
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+.root{
+
+    font-family: Anek Devanagari;
+}
+body{
+
+    overflow: hidden;
+    font-family: Anek Devanagari;
+    background-color: var(--side-panel-bg-color);
+    color: var(--text-color);
+}
+.windowBody{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+.windowContents{
+
+    width: 1fr;
+    background-color: var(--bg-color);
+}
+img{
+
+    border-radius: var(--border-radius);
+    object-fit: cover;
+    object-position: center;
+}
+::-webkit-scrollbar{
+    
+    display: none;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    
+    border-radius: var(--roundness);
+}
+a{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+
+    border-radius: var(--roundness);
+    transition: 0.25s;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: center;
+    box-shadow: 0 2.5px 15px var(--shadow-color);
+    border-style: none;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+button:hover{
+
+    box-shadow: 0 5px 25px var(--shadow-color);
+}
+button:active{
+    
+    transition: 0.1s;
+    box-shadow: 0 0px 0px var(--shadow-color);
+}
+.codeBlock{
+
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    font-family: Cascadia code;
+    border-radius: var(--roundness);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
