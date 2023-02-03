@@ -8,7 +8,7 @@ export default () =>{
         <div className="scrollableArea">
 
             <div className="emptyBox"><Channel name={"sex"} img={hashtag}/></div>
-            <Channel name={"example"} img={hashtag}/>
+            <Channel name={"leftBar"} img={hashtag}/>
         </div>
     </div>)
 }
