@@ -4,6 +4,7 @@
 @import './globalComponents/main.css';
 @import './topBar/main.css';
 @import './leftBar/main.css';
+@import './rightBar/main.css';
 @import './mainWindow/main.css';
 
 /* various stuff */
